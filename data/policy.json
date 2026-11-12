@@ -1,0 +1,130 @@
+{
+  "steps": [
+    "open",
+    "checkout",
+    "paid"
+  ],
+  "maxMinutes": 1440,
+  "identityLinks": [
+    {
+      "device": "d0",
+      "person": "p0",
+      "effective": 0
+    },
+    {
+      "device": "d1",
+      "person": "p1",
+      "effective": 0
+    },
+    {
+      "device": "d2",
+      "person": "p2",
+      "effective": 0
+    },
+    {
+      "device": "d3",
+      "person": "p3",
+      "effective": 0
+    },
+    {
+      "device": "d4",
+      "person": "p4",
+      "effective": 0
+    },
+    {
+      "device": "d5",
+      "person": "p5",
+      "effective": 0
+    },
+    {
+      "device": "d6",
+      "person": "p6",
+      "effective": 0
+    },
+    {
+      "device": "d7",
+      "person": "p7",
+      "effective": 0
+    },
+    {
+      "device": "d8",
+      "person": "p8",
+      "effective": 0
+    },
+    {
+      "device": "d9",
+      "person": "p9",
+      "effective": 0
+    },
+    {
+      "device": "d10",
+      "person": "p10",
+      "effective": 0
+    },
+    {
+      "device": "d11",
+      "person": "p11",
+      "effective": 0
+    },
+    {
+      "device": "d12",
+      "person": "p12",
+      "effective": 0
+    },
+    {
+      "device": "d13",
+      "person": "p13",
+      "effective": 0
+    },
+    {
+      "device": "d14",
+      "person": "p14",
+      "effective": 0
+    },
+    {
+      "device": "d15",
+      "person": "p15",
+      "effective": 0
+    },
+    {
+      "device": "d16",
+      "person": "p16",
+      "effective": 0
+    },
+    {
+      "device": "d17",
+      "person": "p17",
+      "effective": 0
+    },
+    {
+      "device": "d18",
+      "person": "p18",
+      "effective": 0
+    },
+    {
+      "device": "d19",
+      "person": "p19",
+      "effective": 0
+    },
+    {
+      "device": "d20",
+      "person": "p20",
+      "effective": 0
+    },
+    {
+      "device": "d21",
+      "person": "p21",
+      "effective": 0
+    },
+    {
+      "device": "d22",
+      "person": "p22",
+      "effective": 0
+    },
+    {
+      "device": "d23",
+      "person": "p23",
+      "effective": 0
+    }
+  ]
+}

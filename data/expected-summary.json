@@ -1,0 +1,17 @@
+[
+  {
+    "key": "checkout",
+    "count": 48,
+    "sum": 55776
+  },
+  {
+    "key": "open",
+    "count": 24,
+    "sum": 27600
+  },
+  {
+    "key": "paid",
+    "count": 24,
+    "sum": 28176
+  }
+]
