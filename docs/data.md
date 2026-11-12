@@ -7,6 +7,7 @@
 | 字段 | 类型 |
 | --- | --- |
 | `id` | `string` |
+| `event_id` | `string` |
 | `person` | `string` |
 | `device` | `string` |
 | `event` | `string` |

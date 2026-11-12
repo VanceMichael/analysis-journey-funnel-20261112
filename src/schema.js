@@ -1,5 +1,6 @@
 export const schema = {
   "id": "string",
+  "event_id": "string",
   "person": "string",
   "device": "string",
   "event": "string",
