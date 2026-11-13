@@ -1,10 +1,25 @@
 {
-  "steps": [
-    "open",
-    "checkout",
-    "paid"
-  ],
-  "maxMinutes": 1440,
+  "funnel": {
+    "name": "促销结算旅程",
+    "entry": "every",
+    "reuseEvents": false,
+    "windowMinutes": 1440,
+    "segmentBy": "region",
+    "steps": [
+      {
+        "event": "open"
+      },
+      {
+        "event": "checkout",
+        "maxGapMinutes": 120
+      },
+      {
+        "event": "paid",
+        "maxGapMinutes": 1440
+      }
+    ]
+  },
+  "cutoff": 2400,
   "identityLinks": [
     {
       "device": "d0",

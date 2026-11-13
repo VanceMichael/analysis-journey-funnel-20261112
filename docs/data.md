@@ -17,6 +17,6 @@
 | `revision` | `integer` |
 | `region` | `string` |
 
-现有 `summary` 按 `event` 清点记录，`sum` 为 `time` 的逐行核对值，不代表统计推断或跨期业务指标。分组按键排序，行按记录键稳定处理。`data/expected-summary.json` 是独立生成的现有核算对照；`data/policy.json` 保存业务配置的演练值，当前清点命令不消费分析配置。
+现有 `summary` 按 `event` 清点记录，`sum` 为 `time` 的逐行核对值，不代表统计推断或跨期业务指标。分组按键排序，行按记录键稳定处理。`data/expected-summary.json` 是独立生成的现有核算对照；`data/policy.json` 保存业务配置的演练值，清点命令不消费分析配置，`journey` 命令的旅程漏斗口径消费该配置，见 `docs/journey.md`。`data/examples/` 保存旅程口径的可复核小例子。
 
 `inspect` 返回输入行数、字段列表与 SHA-256 指纹；指纹不依赖字段或记录排列。数据版本不支持时应直接拒绝，不做静默迁移。错误发生时命令返回非零退出码。

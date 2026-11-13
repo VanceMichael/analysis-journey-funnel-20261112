@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "event_id": "rs-e1",
+      "person": "p60",
+      "device": "d60",
+      "event": "open",
+      "time": 0,
+      "received": 2,
+      "sequence": 0,
+      "revision": 1,
+      "region": "west",
+      "id": "rs1"
+    },
+    {
+      "event_id": "rs-e2",
+      "person": "p60",
+      "device": "d60",
+      "event": "open",
+      "time": 100,
+      "received": 102,
+      "sequence": 1,
+      "revision": 1,
+      "region": "west",
+      "id": "rs2"
+    },
+    {
+      "event_id": "rs-e3",
+      "person": "p60",
+      "device": "d60",
+      "event": "checkout",
+      "time": 120,
+      "received": 122,
+      "sequence": 2,
+      "revision": 1,
+      "region": "west",
+      "id": "rs3"
+    },
+    {
+      "event_id": "rs-e4",
+      "person": "p60",
+      "device": "d60",
+      "event": "paid",
+      "time": 140,
+      "received": 142,
+      "sequence": 3,
+      "revision": 1,
+      "region": "west",
+      "id": "rs4"
+    }
+  ]
+}

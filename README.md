@@ -16,10 +16,12 @@ npm test
 npm run summary
 node src/cli.js inspect --input data/records.json
 node src/cli.js summary --input data/records.json --out var/summary.json
+node src/cli.js journey --out var/journey.json --recap var/journey-recap.md
+node src/cli.js journey --period 0:1200 --period 1200:2400
 npm run demo
 ```
 
-`npm run demo` 在本地打印输入、现有核算及配置并生成 `var/summary.json`，不访问网络、不等待真实业务时间，通常几秒内完成。输出目录可删除后重新运行，测试只使用临时目录。
+`npm run demo` 在本地打印输入、现有核算及配置，生成 `var/summary.json`、`var/journey.json` 与中文复盘 `var/journey-recap.md`，不访问网络、不等待真实业务时间，通常几秒内完成。输出目录可删除后重新运行，测试只使用临时目录。
 
 ## 容器
 
@@ -34,7 +36,11 @@ Dockerfile 固定 Node.js 基础镜像摘要，构建时执行语法检查和测
 
 - `src/dataset.js`：记录校验、规范序列化和数据指纹。
 - `src/domain.js`：当前业务分组核算。
+- `src/journey.js`：可配置旅程漏斗（身份、截点、更正、匹配与两期比较）。
+- `src/recap.js`：旅程结果的中文复盘。
 - `src/cli.js`：本地读取、检查和导出入口。
 - `src/output.js`：以临时文件写入后替换完整 JSON。
-- `test/`：输入约束、领域核对、命令与输出回归。
-- `data/`：合成记录、独立核对值及本地业务配置。
+- `test/`：输入约束、领域核对、旅程口径、命令与输出回归。
+- `data/`：合成记录、独立核对值、本地业务配置及旅程可复核例子。
+
+旅程漏斗的配置与口径见 `docs/journey.md`。

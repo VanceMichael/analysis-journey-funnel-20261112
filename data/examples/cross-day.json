@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "event_id": "cd-e1",
+      "person": "p61",
+      "device": "d61",
+      "event": "open",
+      "time": 1400,
+      "received": 1402,
+      "sequence": 0,
+      "revision": 1,
+      "region": "east",
+      "id": "cd1"
+    },
+    {
+      "event_id": "cd-e2",
+      "person": "p61",
+      "device": "d61",
+      "event": "checkout",
+      "time": 1430,
+      "received": 1432,
+      "sequence": 1,
+      "revision": 1,
+      "region": "east",
+      "id": "cd2"
+    },
+    {
+      "event_id": "cd-e3",
+      "person": "p61",
+      "device": "d61",
+      "event": "paid",
+      "time": 1500,
+      "received": 1502,
+      "sequence": 2,
+      "revision": 1,
+      "region": "east",
+      "id": "cd3"
+    }
+  ]
+}

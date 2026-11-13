@@ -1,0 +1,29 @@
+{
+  "funnel": {
+    "name": "示例漏斗",
+    "entry": "every",
+    "reuseEvents": false,
+    "windowMinutes": 1440,
+    "segmentBy": "region",
+    "steps": [
+      {
+        "event": "open"
+      },
+      {
+        "event": "checkout",
+        "maxGapMinutes": 60
+      },
+      {
+        "event": "paid"
+      }
+    ]
+  },
+  "cutoff": 3000,
+  "identityLinks": [
+    {
+      "device": "d90",
+      "person": "p90",
+      "effective": 1000
+    }
+  ]
+}

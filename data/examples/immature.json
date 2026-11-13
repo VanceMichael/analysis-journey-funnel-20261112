@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "event_id": "im-e1",
+      "person": "p80",
+      "device": "d80",
+      "event": "open",
+      "time": 1900,
+      "received": 1902,
+      "sequence": 0,
+      "revision": 1,
+      "region": "west",
+      "id": "im1"
+    },
+    {
+      "event_id": "im-e2",
+      "person": "p80",
+      "device": "d80",
+      "event": "checkout",
+      "time": 1920,
+      "received": 1922,
+      "sequence": 1,
+      "revision": 1,
+      "region": "west",
+      "id": "im2"
+    },
+    {
+      "event_id": "im-e3",
+      "person": "p80",
+      "device": "d80",
+      "event": "paid",
+      "time": 1930,
+      "received": 2500,
+      "sequence": 2,
+      "revision": 1,
+      "region": "west",
+      "id": "im3"
+    },
+    {
+      "event_id": "im-e4",
+      "person": "p81",
+      "device": "d81",
+      "event": "open",
+      "time": 100,
+      "received": 102,
+      "sequence": 0,
+      "revision": 1,
+      "region": "east",
+      "id": "im4"
+    },
+    {
+      "event_id": "im-e5",
+      "person": "p81",
+      "device": "d81",
+      "event": "checkout",
+      "time": 120,
+      "received": 122,
+      "sequence": 1,
+      "revision": 1,
+      "region": "east",
+      "id": "im5"
+    }
+  ]
+}

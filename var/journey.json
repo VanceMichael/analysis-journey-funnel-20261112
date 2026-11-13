@@ -1,0 +1,1083 @@
+{
+  "audit": {
+    "excludedByCutoff": 0,
+    "records": 96,
+    "superseded": 0,
+    "visible": 96
+  },
+  "command": "journey",
+  "comparison": {
+    "a": "0:1200",
+    "b": "1200:2400",
+    "note": "两期并排描述，不作因果判断",
+    "segments": [
+      {
+        "a": {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "open": 0,
+          "started": 6
+        },
+        "b": {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "open": 0,
+          "started": 6
+        },
+        "delta": {
+          "completed": 0,
+          "completionRate": 0
+        },
+        "key": "east",
+        "steps": [
+          {
+            "event": "checkout",
+            "waitP50": {
+              "a": 8,
+              "b": 8,
+              "delta": 0
+            }
+          },
+          {
+            "event": "paid",
+            "waitP50": {
+              "a": 16,
+              "b": 16,
+              "delta": 0
+            }
+          }
+        ]
+      },
+      {
+        "a": {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "open": 0,
+          "started": 6
+        },
+        "b": {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "open": 0,
+          "started": 6
+        },
+        "delta": {
+          "completed": 0,
+          "completionRate": 0
+        },
+        "key": "west",
+        "steps": [
+          {
+            "event": "checkout",
+            "waitP50": {
+              "a": 8,
+              "b": 8,
+              "delta": 0
+            }
+          },
+          {
+            "event": "paid",
+            "waitP50": {
+              "a": 16,
+              "b": 16,
+              "delta": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "configFingerprint": "0eaa971b886f4b67a77d38e38bef1cecd9ccd3aa542ca8dda72e5e25847d49c4",
+  "cutoff": 2400,
+  "entry": "every",
+  "funnel": "促销结算旅程",
+  "inputFingerprint": "4c473b7c0648304a7eb5887d512ce44ffe0fde7fd84ef62c6be3806e9dfdf3f7",
+  "periods": [
+    {
+      "from": 0,
+      "name": "0:1200",
+      "segments": [
+        {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "failureReasons": [],
+          "journeys": [
+            {
+              "identity": "p1",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt4",
+                  "record": "r0004",
+                  "step": 0,
+                  "time": 100
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt5",
+                  "record": "r0005",
+                  "step": 1,
+                  "time": 108
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt7",
+                  "record": "r0007",
+                  "step": 2,
+                  "time": 124
+                }
+              ],
+              "segment": "east",
+              "start": 100,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p3",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt12",
+                  "record": "r0012",
+                  "step": 0,
+                  "time": 300
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt13",
+                  "record": "r0013",
+                  "step": 1,
+                  "time": 308
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt15",
+                  "record": "r0015",
+                  "step": 2,
+                  "time": 324
+                }
+              ],
+              "segment": "east",
+              "start": 300,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p5",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt20",
+                  "record": "r0020",
+                  "step": 0,
+                  "time": 500
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt21",
+                  "record": "r0021",
+                  "step": 1,
+                  "time": 508
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt23",
+                  "record": "r0023",
+                  "step": 2,
+                  "time": 524
+                }
+              ],
+              "segment": "east",
+              "start": 500,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p7",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt28",
+                  "record": "r0028",
+                  "step": 0,
+                  "time": 700
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt29",
+                  "record": "r0029",
+                  "step": 1,
+                  "time": 708
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt31",
+                  "record": "r0031",
+                  "step": 2,
+                  "time": 724
+                }
+              ],
+              "segment": "east",
+              "start": 700,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p9",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt36",
+                  "record": "r0036",
+                  "step": 0,
+                  "time": 900
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt37",
+                  "record": "r0037",
+                  "step": 1,
+                  "time": 908
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt39",
+                  "record": "r0039",
+                  "step": 2,
+                  "time": 924
+                }
+              ],
+              "segment": "east",
+              "start": 900,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p11",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt44",
+                  "record": "r0044",
+                  "step": 0,
+                  "time": 1100
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt45",
+                  "record": "r0045",
+                  "step": 1,
+                  "time": 1108
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt47",
+                  "record": "r0047",
+                  "step": 2,
+                  "time": 1124
+                }
+              ],
+              "segment": "east",
+              "start": 1100,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            }
+          ],
+          "key": "east",
+          "open": 0,
+          "started": 6,
+          "steps": [
+            {
+              "event": "open",
+              "reached": 6
+            },
+            {
+              "event": "checkout",
+              "reached": 6,
+              "wait": {
+                "max": 8,
+                "min": 8,
+                "n": 6,
+                "p50": 8,
+                "p90": 8
+              }
+            },
+            {
+              "event": "paid",
+              "reached": 6,
+              "wait": {
+                "max": 16,
+                "min": 16,
+                "n": 6,
+                "p50": 16,
+                "p90": 16
+              }
+            }
+          ]
+        },
+        {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "failureReasons": [],
+          "journeys": [
+            {
+              "identity": "p0",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt0",
+                  "record": "r0000",
+                  "step": 0,
+                  "time": 0
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt1",
+                  "record": "r0001",
+                  "step": 1,
+                  "time": 8
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt3",
+                  "record": "r0003",
+                  "step": 2,
+                  "time": 24
+                }
+              ],
+              "segment": "west",
+              "start": 0,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p2",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt8",
+                  "record": "r0008",
+                  "step": 0,
+                  "time": 200
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt9",
+                  "record": "r0009",
+                  "step": 1,
+                  "time": 208
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt11",
+                  "record": "r0011",
+                  "step": 2,
+                  "time": 224
+                }
+              ],
+              "segment": "west",
+              "start": 200,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p4",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt16",
+                  "record": "r0016",
+                  "step": 0,
+                  "time": 400
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt17",
+                  "record": "r0017",
+                  "step": 1,
+                  "time": 408
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt19",
+                  "record": "r0019",
+                  "step": 2,
+                  "time": 424
+                }
+              ],
+              "segment": "west",
+              "start": 400,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p6",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt24",
+                  "record": "r0024",
+                  "step": 0,
+                  "time": 600
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt25",
+                  "record": "r0025",
+                  "step": 1,
+                  "time": 608
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt27",
+                  "record": "r0027",
+                  "step": 2,
+                  "time": 624
+                }
+              ],
+              "segment": "west",
+              "start": 600,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p8",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt32",
+                  "record": "r0032",
+                  "step": 0,
+                  "time": 800
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt33",
+                  "record": "r0033",
+                  "step": 1,
+                  "time": 808
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt35",
+                  "record": "r0035",
+                  "step": 2,
+                  "time": 824
+                }
+              ],
+              "segment": "west",
+              "start": 800,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p10",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt40",
+                  "record": "r0040",
+                  "step": 0,
+                  "time": 1000
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt41",
+                  "record": "r0041",
+                  "step": 1,
+                  "time": 1008
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt43",
+                  "record": "r0043",
+                  "step": 2,
+                  "time": 1024
+                }
+              ],
+              "segment": "west",
+              "start": 1000,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            }
+          ],
+          "key": "west",
+          "open": 0,
+          "started": 6,
+          "steps": [
+            {
+              "event": "open",
+              "reached": 6
+            },
+            {
+              "event": "checkout",
+              "reached": 6,
+              "wait": {
+                "max": 8,
+                "min": 8,
+                "n": 6,
+                "p50": 8,
+                "p90": 8
+              }
+            },
+            {
+              "event": "paid",
+              "reached": 6,
+              "wait": {
+                "max": 16,
+                "min": 16,
+                "n": 6,
+                "p50": 16,
+                "p90": 16
+              }
+            }
+          ]
+        }
+      ],
+      "to": 1200
+    },
+    {
+      "from": 1200,
+      "name": "1200:2400",
+      "segments": [
+        {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "failureReasons": [],
+          "journeys": [
+            {
+              "identity": "p13",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt52",
+                  "record": "r0052",
+                  "step": 0,
+                  "time": 1300
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt53",
+                  "record": "r0053",
+                  "step": 1,
+                  "time": 1308
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt55",
+                  "record": "r0055",
+                  "step": 2,
+                  "time": 1324
+                }
+              ],
+              "segment": "east",
+              "start": 1300,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p15",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt60",
+                  "record": "r0060",
+                  "step": 0,
+                  "time": 1500
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt61",
+                  "record": "r0061",
+                  "step": 1,
+                  "time": 1508
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt63",
+                  "record": "r0063",
+                  "step": 2,
+                  "time": 1524
+                }
+              ],
+              "segment": "east",
+              "start": 1500,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p17",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt68",
+                  "record": "r0068",
+                  "step": 0,
+                  "time": 1700
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt69",
+                  "record": "r0069",
+                  "step": 1,
+                  "time": 1708
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt71",
+                  "record": "r0071",
+                  "step": 2,
+                  "time": 1724
+                }
+              ],
+              "segment": "east",
+              "start": 1700,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p19",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt76",
+                  "record": "r0076",
+                  "step": 0,
+                  "time": 1900
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt77",
+                  "record": "r0077",
+                  "step": 1,
+                  "time": 1908
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt79",
+                  "record": "r0079",
+                  "step": 2,
+                  "time": 1924
+                }
+              ],
+              "segment": "east",
+              "start": 1900,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p21",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt84",
+                  "record": "r0084",
+                  "step": 0,
+                  "time": 2100
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt85",
+                  "record": "r0085",
+                  "step": 1,
+                  "time": 2108
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt87",
+                  "record": "r0087",
+                  "step": 2,
+                  "time": 2124
+                }
+              ],
+              "segment": "east",
+              "start": 2100,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p23",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt92",
+                  "record": "r0092",
+                  "step": 0,
+                  "time": 2300
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt93",
+                  "record": "r0093",
+                  "step": 1,
+                  "time": 2308
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt95",
+                  "record": "r0095",
+                  "step": 2,
+                  "time": 2324
+                }
+              ],
+              "segment": "east",
+              "start": 2300,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            }
+          ],
+          "key": "east",
+          "open": 0,
+          "started": 6,
+          "steps": [
+            {
+              "event": "open",
+              "reached": 6
+            },
+            {
+              "event": "checkout",
+              "reached": 6,
+              "wait": {
+                "max": 8,
+                "min": 8,
+                "n": 6,
+                "p50": 8,
+                "p90": 8
+              }
+            },
+            {
+              "event": "paid",
+              "reached": 6,
+              "wait": {
+                "max": 16,
+                "min": 16,
+                "n": 6,
+                "p50": 16,
+                "p90": 16
+              }
+            }
+          ]
+        },
+        {
+          "completed": 6,
+          "completionRate": 1,
+          "failed": 0,
+          "failureReasons": [],
+          "journeys": [
+            {
+              "identity": "p12",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt48",
+                  "record": "r0048",
+                  "step": 0,
+                  "time": 1200
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt49",
+                  "record": "r0049",
+                  "step": 1,
+                  "time": 1208
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt51",
+                  "record": "r0051",
+                  "step": 2,
+                  "time": 1224
+                }
+              ],
+              "segment": "west",
+              "start": 1200,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p14",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt56",
+                  "record": "r0056",
+                  "step": 0,
+                  "time": 1400
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt57",
+                  "record": "r0057",
+                  "step": 1,
+                  "time": 1408
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt59",
+                  "record": "r0059",
+                  "step": 2,
+                  "time": 1424
+                }
+              ],
+              "segment": "west",
+              "start": 1400,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p16",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt64",
+                  "record": "r0064",
+                  "step": 0,
+                  "time": 1600
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt65",
+                  "record": "r0065",
+                  "step": 1,
+                  "time": 1608
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt67",
+                  "record": "r0067",
+                  "step": 2,
+                  "time": 1624
+                }
+              ],
+              "segment": "west",
+              "start": 1600,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p18",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt72",
+                  "record": "r0072",
+                  "step": 0,
+                  "time": 1800
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt73",
+                  "record": "r0073",
+                  "step": 1,
+                  "time": 1808
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt75",
+                  "record": "r0075",
+                  "step": 2,
+                  "time": 1824
+                }
+              ],
+              "segment": "west",
+              "start": 1800,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p20",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt80",
+                  "record": "r0080",
+                  "step": 0,
+                  "time": 2000
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt81",
+                  "record": "r0081",
+                  "step": 1,
+                  "time": 2008
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt83",
+                  "record": "r0083",
+                  "step": 2,
+                  "time": 2024
+                }
+              ],
+              "segment": "west",
+              "start": 2000,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            },
+            {
+              "identity": "p22",
+              "matched": [
+                {
+                  "event": "open",
+                  "eventId": "evt88",
+                  "record": "r0088",
+                  "step": 0,
+                  "time": 2200
+                },
+                {
+                  "event": "checkout",
+                  "eventId": "evt89",
+                  "record": "r0089",
+                  "step": 1,
+                  "time": 2208
+                },
+                {
+                  "event": "paid",
+                  "eventId": "evt91",
+                  "record": "r0091",
+                  "step": 2,
+                  "time": 2224
+                }
+              ],
+              "segment": "west",
+              "start": 2200,
+              "status": "completed",
+              "waits": [
+                8,
+                16
+              ]
+            }
+          ],
+          "key": "west",
+          "open": 0,
+          "started": 6,
+          "steps": [
+            {
+              "event": "open",
+              "reached": 6
+            },
+            {
+              "event": "checkout",
+              "reached": 6,
+              "wait": {
+                "max": 8,
+                "min": 8,
+                "n": 6,
+                "p50": 8,
+                "p90": 8
+              }
+            },
+            {
+              "event": "paid",
+              "reached": 6,
+              "wait": {
+                "max": 16,
+                "min": 16,
+                "n": 6,
+                "p50": 16,
+                "p90": 16
+              }
+            }
+          ]
+        }
+      ],
+      "to": 2400
+    }
+  ],
+  "reuseEvents": false,
+  "segmentBy": "region",
+  "steps": [
+    {
+      "event": "open",
+      "maxGapMinutes": null,
+      "where": {}
+    },
+    {
+      "event": "checkout",
+      "maxGapMinutes": 120,
+      "where": {}
+    },
+    {
+      "event": "paid",
+      "maxGapMinutes": 1440,
+      "where": {}
+    }
+  ],
+  "windowMinutes": 1440
+}

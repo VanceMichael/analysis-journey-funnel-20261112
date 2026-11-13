@@ -1,0 +1,26 @@
+{
+  "count": 96,
+  "groupBy": "event",
+  "groups": [
+    {
+      "count": 48,
+      "key": "checkout",
+      "latestTime": 2316,
+      "sum": 55776
+    },
+    {
+      "count": 24,
+      "key": "open",
+      "latestTime": 2300,
+      "sum": 27600
+    },
+    {
+      "count": 24,
+      "key": "paid",
+      "latestTime": 2324,
+      "sum": 28176
+    }
+  ],
+  "inputFingerprint": "4c473b7c0648304a7eb5887d512ce44ffe0fde7fd84ef62c6be3806e9dfdf3f7",
+  "valueField": "time"
+}

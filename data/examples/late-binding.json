@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "event_id": "lb-e1",
+      "person": "",
+      "device": "d90",
+      "event": "open",
+      "time": 100,
+      "received": 102,
+      "sequence": 0,
+      "revision": 1,
+      "region": "west",
+      "id": "lb1"
+    },
+    {
+      "event_id": "lb-e2",
+      "person": "",
+      "device": "d90",
+      "event": "checkout",
+      "time": 130,
+      "received": 132,
+      "sequence": 1,
+      "revision": 1,
+      "region": "west",
+      "id": "lb2"
+    },
+    {
+      "event_id": "lb-e3",
+      "person": "p90",
+      "device": "d90",
+      "event": "paid",
+      "time": 1010,
+      "received": 1012,
+      "sequence": 2,
+      "revision": 1,
+      "region": "west",
+      "id": "lb3"
+    }
+  ]
+}
